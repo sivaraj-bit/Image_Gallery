@@ -325,7 +325,7 @@ function Gallery() {
 
       {/* Gallery */}
 
-      <main className="gallery">
+      <main id="gallery" className="gallery">
 
         {filteredImages.length > 0 ? (
           filteredImages.map((image) => (
@@ -448,6 +448,7 @@ function Gallery() {
                   <option value="Desert">Desert</option>
                   <option value="City">City</option>
                   <option value="Sunset">Sunset</option>
+                  <option value="Others">Others</option>
                 </select>
               </div>
 
